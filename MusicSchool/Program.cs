@@ -54,7 +54,6 @@ section.Bind(new AppSettings());
 
 
 
-
 #region IoC Container (Inversion of Control)
 //Autofac,Ninject baðýmlýlýklarýn yönetilmesini saðlayan kütüphaneler
 var connectionString = builder.Configuration.GetConnectionString("MusicSchoolDB");
@@ -68,12 +67,7 @@ builder.Services.AddScoped<TeacherRepoBase, TeacherRepo>();
 builder.Services.AddScoped<InstrumentRepoBase, InstrumentRepo>();
 builder.Services.AddScoped<CityRepoBase, CityRepo>();
 builder.Services.AddScoped<CountryRepoBase, CountryRepo>();
-
 builder.Services.AddScoped<UserRepoBase, UserRepo>();
-
-
-
-
 
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IUserService, UserService>();
@@ -84,12 +78,6 @@ builder.Services.AddScoped<ILessonService, LessonService>();
 builder.Services.AddScoped<IClassroomService, ClassroomService>();
 builder.Services.AddScoped<ICityService, CityService>();
 builder.Services.AddScoped<ICountryService, CountryService>();
-
-
-
-
-
-
 
 #endregion
 

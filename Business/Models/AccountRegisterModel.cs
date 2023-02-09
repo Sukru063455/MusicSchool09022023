@@ -34,15 +34,6 @@ namespace Business.Models
 
         public int TeacherId { get; set; }
         public int StudentId { get; set; }
-        //public Sex Sex { get; set; }
-        //[Required(ErrorMessage = "{0} is required!")]
-        //[StringLength(250,ErrorMessage = "{0} must be maximum {1} characters")]
-        //[EmailAddress(ErrorMessage ="{0} must be in e-mail format!")]
-        //public string Email { get; set; }
-
-        //[Required(ErrorMessage = "{0} is required!")]
-        //[StringLength(1000,ErrorMessage = "{0} must be maximum {1} characters")]
-        //public string Adress { get; set; }
 
     }
 }
