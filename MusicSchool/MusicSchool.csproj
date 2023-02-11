@@ -33,7 +33,6 @@
     <Folder Include="Areas\Database\Data\" />
     <Folder Include="Areas\Database\Models\" />
     <Folder Include="Areas\Database\Views\" />
-    <Folder Include="Views\MusicSchoolContact\SchoolPicture\" />
   </ItemGroup>
 
   <ItemGroup>
